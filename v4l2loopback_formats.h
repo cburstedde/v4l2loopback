@@ -79,6 +79,22 @@ static const struct v4l2l_format formats[] = {
 		.flags = 0,
 	},
 #endif /* V4L2_PIX_FMT_ARGB555 */
+#ifdef V4L2_PIX_FMT_RGBX555
+	{
+		.name = "16 bpp RGB-5-5-5 le",
+		.fourcc = V4L2_PIX_FMT_RGBX555,
+		.depth = 16,
+		.flags = 0,
+	},
+#endif /* V4L2_PIX_FMT_RGBX555 */
+#ifdef V4L2_PIX_FMT_RGBA555
+	{
+		.name = "16 bpp RGBA-5-5-5-1 le",
+		.fourcc = V4L2_PIX_FMT_RGBA555,
+		.depth = 16,
+		.flags = 0,
+	},
+#endif /* V4L2_PIX_FMT_RGBA555 */
 #ifdef V4L2_PIX_FMT_RGB565
 	{
 		.name = "16 bpp RGB-5-6-5 le",
