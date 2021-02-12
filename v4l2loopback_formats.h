@@ -63,6 +63,14 @@ static const struct v4l2l_format formats[] = {
 		.flags = 0,
 	},
 #endif /* V4L2_PIX_FMT_XRGB444 */
+#ifdef V4L2_PIX_FMT_ARGB444
+	{
+		.name = "16 bpp RGB (aaaarrrr ggggbbbb)",
+		.fourcc = V4L2_PIX_FMT_ARGB444,
+		.depth = 16,
+		.flags = 0,
+	},
+#endif /* V4L2_PIX_FMT_ARGB444 */
 #ifdef V4L2_PIX_FMT_XRGB555
 	{
 		.name = "16 bpp XRGB-1-5-5-5 le",
