@@ -65,7 +65,7 @@ static const struct v4l2l_format formats[] = {
 #endif /* V4L2_PIX_FMT_XRGB444 */
 #ifdef V4L2_PIX_FMT_XRGB555
 	{
-		.name = "16 bpp RGB-5-5-5",
+		.name = "16 bpp XRGB-1-5-5-5 le",
 		.fourcc = V4L2_PIX_FMT_XRGB555,
 		.depth = 16,
 		.flags = 0,
@@ -73,7 +73,7 @@ static const struct v4l2l_format formats[] = {
 #endif /* V4L2_PIX_FMT_XRGB555 */
 #ifdef V4L2_PIX_FMT_ARGB555
 	{
-		.name = "16 bpp RGBA-5-5-5-1",
+		.name = "16 bpp ARGB-1-5-5-5 le",
 		.fourcc = V4L2_PIX_FMT_ARGB555,
 		.depth = 16,
 		.flags = 0,
@@ -81,7 +81,7 @@ static const struct v4l2l_format formats[] = {
 #endif /* V4L2_PIX_FMT_ARGB555 */
 #ifdef V4L2_PIX_FMT_RGB565
 	{
-		.name = "16 bpp RGB-5-6-5",
+		.name = "16 bpp RGB-5-6-5 le",
 		.fourcc = V4L2_PIX_FMT_RGB565,
 		.depth = 16,
 		.flags = 0,
@@ -89,7 +89,7 @@ static const struct v4l2l_format formats[] = {
 #endif /* V4L2_PIX_FMT_RGB565 */
 #ifdef V4L2_PIX_FMT_XRGB555X
 	{
-		.name = "16 bpp RGB-5-5-5 BE",
+		.name = "16 bpp RGB-5-5-5 be",
 		.fourcc = V4L2_PIX_FMT_XRGB555X,
 		.depth = 16,
 		.flags = 0,
@@ -97,7 +97,7 @@ static const struct v4l2l_format formats[] = {
 #endif /* V4L2_PIX_FMT_XRGB555X */
 #ifdef V4L2_PIX_FMT_ARGB555X
 	{
-		.name = "16 bpp RGBA-5-5-5-1 BE",
+		.name = "16 bpp RGBA-5-5-5-1 be",
 		.fourcc = V4L2_PIX_FMT_ARGB555X,
 		.depth = 16,
 		.flags = 0,
@@ -105,7 +105,7 @@ static const struct v4l2l_format formats[] = {
 #endif /* V4L2_PIX_FMT_ARGB555X */
 #ifdef V4L2_PIX_FMT_RGB565X
 	{
-		.name = "16 bpp RGB-5-6-5 BE",
+		.name = "16 bpp RGB-5-6-5 be",
 		.fourcc = V4L2_PIX_FMT_RGB565X,
 		.depth = 16,
 		.flags = 0,
